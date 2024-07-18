@@ -180,5 +180,354 @@
       "voteAverage": 7.6,
       "voteCount": 1890
     }
+  ],
+  "comments": [
+    {
+      "movieId": 1,
+      "userId": 1,
+      "content": "Inside Out is a beautiful exploration of emotions. The storyline is touching and brilliantly executed."
+    },
+    {
+      "movieId": 1,
+      "userId": 2,
+      "content": "A heartwarming movie that shows the complexity of growing up. Joy and Sadness's journey is both entertaining and enlightening."
+    },
+    {
+      "movieId": 1,
+      "userId": 3,
+      "content": "A must-watch for all ages. It’s fascinating how it explains feelings through characters."
+    },
+    {
+      "movieId": 2,
+      "userId": 1,
+      "content": "Can't wait to see Deadpool and Wolverine team up! This movie is going to be epic."
+    },
+    {
+      "movieId": 2,
+      "userId": 2,
+      "content": "Wolverine and Deadpool in one movie? Take my money now!"
+    },
+    {
+      "movieId": 2,
+      "userId": 3,
+      "content": "Excited to see how these two characters interact on screen. The trailer looks promising!"
+    },
+    {
+      "movieId": 3,
+      "userId": 1,
+      "content": "MR-9: Do or Die sounds like a thrilling spy movie. Looking forward to it!"
+    },
+    {
+      "movieId": 3,
+      "userId": 2,
+      "content": "A new secret agent on the block. Can’t wait to see how this one turns out."
+    },
+    {
+      "movieId": 3,
+      "userId": 3,
+      "content": "Interesting plot! I hope the action scenes live up to the hype."
+    },
+    {
+      "movieId": 4,
+      "userId": 1,
+      "content": "Goyo’s storyline about autism is so unique and touching. Eager to see this movie."
+    },
+    {
+      "movieId": 4,
+      "userId": 2,
+      "content": "An emotional journey through love and routine. Goyo looks promising."
+    },
+    {
+      "movieId": 4,
+      "userId": 3,
+      "content": "This film seems like it will be both heartwarming and insightful. Looking forward to it."
+    },
+    {
+      "movieId": 5,
+      "userId": 1,
+      "content": "Kung Fu Panda 4! Po’s adventures never get old. Excited for the new villain."
+    },
+    {
+      "movieId": 5,
+      "userId": 2,
+      "content": "The Chameleon sounds like an interesting antagonist. Can’t wait to see Po in action again!"
+    },
+    {
+      "movieId": 5,
+      "userId": 3,
+      "content": "Po’s journey to find a successor is going to be fun. Looking forward to this installment."
+    },
+    {
+      "movieId": 6,
+      "userId": 1,
+      "content": "My Fault’s premise is intriguing. The dynamics between Noah and Nick should be interesting."
+    },
+    {
+      "movieId": 6,
+      "userId": 2,
+      "content": "A story about adjusting to a new life and new relationships. Sounds like a great watch."
+    },
+    {
+      "movieId": 6,
+      "userId": 3,
+      "content": "Curious to see how Noah and Nick’s relationship develops. The movie looks promising."
+    },
+    {
+      "movieId": 7,
+      "userId": 1,
+      "content": "Twisters looks like a thrilling ride. Storm chasers and social media? Interesting mix!"
+    },
+    {
+      "movieId": 7,
+      "userId": 2,
+      "content": "The storm sequences in Twisters look intense. Can’t wait to see this!"
+    },
+    {
+      "movieId": 7,
+      "userId": 3,
+      "content": "A movie about storm chasers with a modern twist. Sounds exciting!"
+    },
+    {
+      "movieId": 8,
+      "userId": 1,
+      "content": "The Infallibles seems like a great mix of action and drama. Looking forward to it."
+    },
+    {
+      "movieId": 8,
+      "userId": 2,
+      "content": "Alia and Hugo’s dynamic should be interesting. Can’t wait to see how their partnership unfolds."
+    },
+    {
+      "movieId": 8,
+      "userId": 3,
+      "content": "A forced alliance that might turn into something more. The Infallibles looks promising."
+    },
+    {
+      "movieId": 9,
+      "userId": 1,
+      "content": "Autumn and the Black Jaguar looks like a heartfelt adventure. Excited to see Autumn’s journey."
+    },
+    {
+      "movieId": 9,
+      "userId": 2,
+      "content": "A story set in the Amazon rainforest with a cute jaguar. This should be interesting!"
+    },
+    {
+      "movieId": 9,
+      "userId": 3,
+      "content": "The bond between Autumn and Hope sounds touching. Looking forward to this movie."
+    },
+    {
+      "movieId": 10,
+      "userId": 1,
+      "content": "An Ideal Father’s plot is gripping. Can’t wait to see how the story unfolds."
+    },
+    {
+      "movieId": 10,
+      "userId": 2,
+      "content": "A community turning against one of their own. This movie looks intense."
+    },
+    {
+      "movieId": 10,
+      "userId": 3,
+      "content": "The premise of An Ideal Father is intriguing. Excited to see the twists and turns."
+    },
+    {
+      "movieId": 11,
+      "userId": 1,
+      "content": "The Roundup: No Way Out looks action-packed. Detective Ma Seok-do’s adventures are always thrilling."
+    },
+    {
+      "movieId": 11,
+      "userId": 2,
+      "content": "Excited to see how Detective Ma tackles the Japanese gangsters. This movie should be great!"
+    },
+    {
+      "movieId": 11,
+      "userId": 3,
+      "content": "Another intense case for Detective Ma. The Roundup series never disappoints."
+    },
+    {
+      "movieId": 12,
+      "userId": 1,
+      "content": "The Last Kumite looks like a classic martial arts movie. Can’t wait to see the action scenes."
+    },
+    {
+      "movieId": 12,
+      "userId": 2,
+      "content": "Michael Rivers’ fight to save his daughter sounds intense. This movie should be a thrilling ride."
+    },
+    {
+      "movieId": 12,
+      "userId": 3,
+      "content": "A deadly tournament and a fight to save a loved one. The Last Kumite is on my watch list."
+    },
+    {
+      "movieId": 13,
+      "userId": 1,
+      "content": "The Fall Guy has an interesting premise. Excited to see how Colt Seavers handles the conspiracy."
+    },
+    {
+      "movieId": 13,
+      "userId": 2,
+      "content": "A stuntman turned investigator. The Fall Guy looks promising."
+    },
+    {
+      "movieId": 13,
+      "userId": 3,
+      "content": "Tracking down a movie star and solving a conspiracy. The Fall Guy should be an exciting watch."
+    },
+    {
+      "movieId": 14,
+      "userId": 1,
+      "content": "The Watchers’ setting in the Irish forest is intriguing. Can’t wait to see how the story unfolds."
+    },
+    {
+      "movieId": 14,
+      "userId": 2,
+      "content": "Stalked by mysterious creatures each night. The Watchers sounds thrilling."
+    },
+    {
+      "movieId": 14,
+      "userId": 3,
+      "content": "A stranded artist and mysterious creatures. The Watchers looks like a great thriller."
+    },
+    {
+      "movieId": 15,
+      "userId": 1,
+      "content": "Tarot’s premise about cursed cards is intriguing. Excited to see how the story plays out."
+    },
+    {
+      "movieId": 15,
+      "userId": 2,
+      "content": "Violating the sacred rule of Tarot readings. This movie sounds chilling."
+    },
+    {
+      "movieId": 15,
+      "userId": 3,
+      "content": "A race against death after unleashing an evil. Tarot should be a thrilling watch."
+    },
+    {
+      "movieId": 16,
+      "userId": 1,
+      "content": "Kleks Academy looks magical. Can’t wait to see the world of fairy tales and imagination."
+    },
+    {
+      "movieId": 16,
+      "userId": 2,
+      "content": "A girl discovering her unique abilities. Kleks Academy sounds like a great adventure."
+    },
+    {
+      "movieId": 16,
+      "userId": 3,
+      "content": "Exploring creativity and imagination. Kleks Academy looks promising."
+    },
+    {
+      "movieId": 17,
+      "userId": 1,
+      "content": "IF’s premise about imaginary friends is unique. Looking forward to this one."
+    },
+    {
+      "movieId": 17,
+      "userId": 2,
+      "content": "Seeing everyone’s imaginary friends sounds interesting. IF should be a fun watch."
+    },
+    {
+      "movieId": 17,
+      "userId": 3,
+      "content": "A young girl and imaginary friends. IF has a lot of potential."
+    },
+    {
+      "movieId": 18,
+      "userId": 1,
+      "content": "Out of Exile’s story about a thief balancing his life sounds intriguing."
+    },
+    {
+      "movieId": 18,
+      "userId": 2,
+      "content": "A paroled thief and an FBI agent on his trail. Out of Exile should be exciting."
+    },
+    {
+      "movieId": 18,
+      "userId": 3,
+      "content": "Balancing life and mending a troubled family. Out of Exile looks intense."
+    },
+    {
+      "movieId": 19,
+      "userId": 1,
+      "content": "Divorce in the Black’s plot about a young professional’s struggle sounds captivating."
+    },
+    {
+      "movieId": 19,
+      "userId": 2,
+      "content": "A story of fighting for love and uncovering dark secrets. Divorce in the Black looks promising."
+    },
+    {
+      "movieId": 19,
+      "userId": 3,
+      "content": "Ava’s journey sounds intense. Divorce in the Black should be a gripping watch."
+    },
+    {
+      "movieId": 20,
+      "userId": 1,
+      "content": "Godzilla Minus One’s postwar Japan setting is intriguing. Looking forward to the epic battles."
+    },
+    {
+      "movieId": 20,
+      "userId": 2,
+      "content": "Godzilla bringing new devastation. This movie looks like a thrilling ride."
+    },
+    {
+      "movieId": 20,
+      "userId": 3,
+      "content": "Fighting back against an unrelenting horror. Godzilla Minus One is a must-watch."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "testuser@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": 2,
+      "name": "Michael Smith",
+      "email": "testuser2@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": 3,
+      "name": "Samantha Lee",
+      "email": "testuser3@gmail.com",
+      "password": "12345678"
+    }
+  ],
+  "favourites": [
+    {
+      "id": 1,
+      "movieId": 3,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "movieId": 5,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "movieId": 1,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "movieId": 2,
+      "userId": 3
+    },
+    {
+      "id": 5,
+      "movieId": 4,
+      "userId": 3
+    }
   ]
 }

@@ -20,6 +20,10 @@ export class UsersService {
     return await this.usersRepository.save(createUserDto);
   }
 
+  async bulkCreate(createUserDtos: CreateUserDto[]): Promise<User[]> {
+    return await this.usersRepository.save(createUserDtos);
+  }
+
   async findOne(queryUserDto: Partial<QueryUserDto>): Promise<User> {
     return await this.usersRepository.findOne({ where: queryUserDto });
   }

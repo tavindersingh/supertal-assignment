@@ -5,6 +5,9 @@ const fs = require('fs');
 const { NestFactory } = require('@nestjs/core');
 const { AppModule } = require('./dist/app.module');
 const { MoviesService } = require('./dist/movies/movies.service');
+const { CommentsService } = require('./dist/comments/comments.service');
+const { AuthService } = require('./dist/auth/auth.service');
+const { FavouritesService } = require('./dist/favourites/favourites.service');
 
 desc('This task fetches movies from the tmdb api and stores in json file');
 task('createMoviesJson', async function () {
@@ -32,16 +35,33 @@ task('createMoviesJson', async function () {
   fs.writeFileSync('movies.json', jsonData, 'utf8');
 });
 
-desc('This task populates movies json data to database');
-task('populateMovies', async function () {
+desc('This task populates dummy json data to database');
+task('populateData', async function () {
   const jsonData = fs.readFileSync('movies.json', 'utf8');
   const data = JSON.parse(jsonData);
   const movies = data.movies;
+  const comments = data.comments;
+  const users = data.users;
+  const favourites = data.favourites;
 
   const app = await NestFactory.createApplicationContext(AppModule);
 
   const moviesService = app.get(MoviesService);
+  const commentsService = app.get(CommentsService);
+  const authService = app.get(AuthService);
+  const favouritesService = app.get(FavouritesService);
+
+  for (const user of users) {
+    await authService.signup({
+      name: user.name,
+      email: user.email,
+      password: user.password,
+    });
+  }
 
   await moviesService.bulkCreate(movies);
+  await commentsService.bulkCreate(comments);
+  await favouritesService.bulkCreate(favourites);
+
   app.close();
 });

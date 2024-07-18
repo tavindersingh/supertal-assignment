@@ -12,9 +12,12 @@ import {
 } from 'typeorm';
 
 @Entity()
-export class Favourite extends BaseEntity {
+export class Comment extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
+
+  @Column()
+  content: string;
 
   @Column({ name: 'movie_id' })
   movieId: number;

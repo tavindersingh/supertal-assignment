@@ -2,6 +2,7 @@ import {
   Body,
   Controller,
   Delete,
+  Get,
   Param,
   Post,
   Req,
@@ -29,6 +30,14 @@ export class FavouritesController {
 
     createFavouriteDto.userId = userId;
     return await this.favouritesService.addToFavourites(createFavouriteDto);
+  }
+
+  @ApiBearerAuth()
+  @UseGuards(AccessTokenGuard)
+  @Get()
+  async findAll(@Req() req: Request) {
+    const userId = req.user['sub'];
+    return await this.favouritesService.findAll({ userId });
   }
 
   @ApiBearerAuth()

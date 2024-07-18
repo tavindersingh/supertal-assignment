@@ -16,10 +16,19 @@ export class FavouritesService {
     return this.favouriteRepository.save(createFavouriteDto);
   }
 
+  async bulkCreate(
+    createFavouriteDtos: CreateFavouriteDto[],
+  ): Promise<Favourite[]> {
+    return this.favouriteRepository.save(createFavouriteDtos);
+  }
+
   async findAll(
     queryFavouriteDto: Partial<QueryFavouriteDto>,
   ): Promise<Favourite[]> {
-    return await this.favouriteRepository.find({ where: queryFavouriteDto });
+    return await this.favouriteRepository.find({
+      where: queryFavouriteDto,
+      relations: ['movie'],
+    });
   }
 
   async findOne(queryFavouriteDto: QueryFavouriteDto): Promise<Favourite> {
