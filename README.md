@@ -5,3 +5,4 @@
 4. Run command `npm run build` to build the project
 5. Run command `npm run populateData` to fill the dummy data from the `movies.json` file to database
 6. Run command `npm run start:dev` to start development server
+7. Swagger Link: `http://localhost:3000/api-docs`
