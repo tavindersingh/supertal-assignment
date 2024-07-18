@@ -1,0 +1,47 @@
+const axios = require('axios');
+const { task, desc } = require('jake');
+const fs = require('fs');
+
+const { NestFactory } = require('@nestjs/core');
+const { AppModule } = require('./dist/app.module');
+const { MoviesService } = require('./dist/movies/movies.service');
+
+desc('This task fetches movies from the tmdb api and stores in json file');
+task('createMoviesJson', async function () {
+  const response = await axios.get(
+    'https://api.themoviedb.org/3/movie/popular?api_key=9dfdd15f13daafcd8734247dd17175a2&language=en-US&page=2',
+  );
+
+  const movies = response.data.results.map((movie) => {
+    return {
+      title: movie['title'],
+      overview: movie['overview'],
+      posterPath: `https://image.tmdb.org/t/p/w500${movie['poster_path']}`,
+      tmdbId: movie['id'],
+      releaseDate: movie['release_date'],
+      voteAverage: movie['vote_average'],
+      voteCount: movie['vote_count'],
+    };
+  });
+
+  const data = {
+    movies,
+  };
+
+  const jsonData = JSON.stringify(data);
+  fs.writeFileSync('movies.json', jsonData, 'utf8');
+});
+
+desc('This task populates movies json data to database');
+task('populateMovies', async function () {
+  const jsonData = fs.readFileSync('movies.json', 'utf8');
+  const data = JSON.parse(jsonData);
+  const movies = data.movies;
+
+  const app = await NestFactory.createApplicationContext(AppModule);
+
+  const moviesService = app.get(MoviesService);
+
+  await moviesService.bulkCreate(movies);
+  app.close();
+});

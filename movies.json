@@ -1,0 +1,184 @@
+{
+  "movies": [
+    {
+      "title": "Inside Out",
+      "overview": "When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+      "tmdbId": 150540,
+      "releaseDate": "2015-06-17",
+      "voteAverage": 7.916,
+      "voteCount": 21219
+    },
+    {
+      "title": "Deadpool & Wolverine",
+      "overview": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jbwYaoYWZwxtPP76AZnfYKQjCEB.jpg",
+      "tmdbId": 533535,
+      "releaseDate": "2024-07-24",
+      "voteAverage": 0,
+      "voteCount": 0
+    },
+    {
+      "title": "MR-9: Do or Die",
+      "overview": "Masud Rana is a Secret Agent with code name MR-9 of the Bangladesh Counter Intelligence Agency",
+      "posterPath": "https://image.tmdb.org/t/p/w500/29nqVPNFnB9ZxriApsIrFiteBa6.jpg",
+      "tmdbId": 1016346,
+      "releaseDate": "2023-08-25",
+      "voteAverage": 6.47,
+      "voteCount": 115
+    },
+    {
+      "title": "Goyo",
+      "overview": "A young autistic museum guide lives by a strict routine — until he falls in love with his coworker and must confront a whirlwind of new, intense emotions.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/fCjC1RRbEJUpDjM55RNUMXQen0b.jpg",
+      "tmdbId": 1191610,
+      "releaseDate": "2024-06-27",
+      "voteAverage": 6.792,
+      "voteCount": 24
+    },
+    {
+      "title": "Kung Fu Panda 4",
+      "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
+      "tmdbId": 1011985,
+      "releaseDate": "2024-03-02",
+      "voteAverage": 7.137,
+      "voteCount": 2285
+    },
+    {
+      "title": "My Fault",
+      "overview": "Noah must leave her city, boyfriend, and friends to move into William Leister's mansion, the flashy and wealthy husband of her mother Rafaela. As a proud and independent 17 year old, Noah resists living in a mansion surrounded by luxury. However, it is there where she meets Nick, her new stepbrother, and the clash of their strong personalities becomes evident from the very beginning.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+      "tmdbId": 1010581,
+      "releaseDate": "2023-06-08",
+      "voteAverage": 7.971,
+      "voteCount": 2701
+    },
+    {
+      "title": "Twisters",
+      "overview": "As storm season intensifies, the paths of former storm chaser Kate Carter and reckless social-media superstar Tyler Owens collide when terrifying phenomena never seen before are unleashed. The pair and their competing teams find themselves squarely in the paths of multiple storm systems converging over central Oklahoma in the fight of their lives.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/g7yg6jJj4Z377j5h6S3MBRmjQ7U.jpg",
+      "tmdbId": 718821,
+      "releaseDate": "2024-07-10",
+      "voteAverage": 7.8,
+      "voteCount": 51
+    },
+    {
+      "title": "The Infallibles",
+      "overview": "When a gang of robbers provokes chaos in Paris and humiliates the police, the Minister of the Interior wants new blood at the helm of the investigation: Alia is from Marseille, fiery-tempered and unmanageable, Hugo is Parisian, valedictorian and meticulous. In short, they have every reason to hate each other. A forced alliance, for better or for worse, or maybe blossoming into something else?",
+      "posterPath": "https://image.tmdb.org/t/p/w500/7PoIAvL3Io5v0HyBliXfXZruQTi.jpg",
+      "tmdbId": 1143019,
+      "releaseDate": "2024-06-20",
+      "voteAverage": 5.933,
+      "voteCount": 60
+    },
+    {
+      "title": "Autumn and the Black Jaguar",
+      "overview": "Grown up in the Amazon rainforest, Autumn lives with Hope, the cute baby jaguar she adopted. However, a circumstance forces Autumn to return to New York. Autumn goes back into the jungle to save Hope from grave danger.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ocHu00nOZzK0m9BsFdrFg3SglS0.jpg",
+      "tmdbId": 959098,
+      "releaseDate": "2024-02-01",
+      "voteAverage": 5.554,
+      "voteCount": 29
+    },
+    {
+      "title": "An Ideal Father",
+      "overview": "Michel, the jovial owner of the only café in a small Normandy town, sees his life turned upside down when his teenage daughter is murdered. The community has his back but soon rumor spreads and Michel is singled out. From the ideal father, he becomes the ideal culprit.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/4xJd3uwtL1vCuZgEfEc8JXI9Uyx.jpg",
+      "tmdbId": 1219685,
+      "releaseDate": "2024-04-21",
+      "voteAverage": 6.4,
+      "voteCount": 61
+    },
+    {
+      "title": "The Roundup: No Way Out",
+      "overview": "Detective Ma Seok-do changes his affiliation from the Geumcheon Police Station to the Metropolitan Investigation Team, in order to eradicate Japanese gangsters who enter Korea to commit heinous crimes.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/lW6IHrtaATxDKYVYoQGU5sh0OVm.jpg",
+      "tmdbId": 955555,
+      "releaseDate": "2023-05-31",
+      "voteAverage": 7.286,
+      "voteCount": 365
+    },
+    {
+      "title": "The Last Kumite",
+      "overview": "When Karate champion Michael Rivers wins the last tournament of his career, shady businessman Ron Hall offers him the opportunity to fight in an illegal Kumite in Bulgaria against the world’s best martial artists.  When Michael declines, Hall has his daughter kidnapped and, in order to rescue her, Rivers is left with no choice but to compete in the deadly tournament. Arriving in Bulgaria, he finds out that he is not the only fighter whose loved one was taken. Rivers enlists the help of trainers Master Loren, and Julie Jackson but will it be enough for him to win the tournament and save his daughter’s life?",
+      "posterPath": "https://image.tmdb.org/t/p/w500/zDkaJgsPoSqa2cMe2hW2HAfyWwO.jpg",
+      "tmdbId": 1115623,
+      "releaseDate": "2024-05-09",
+      "voteAverage": 7.11,
+      "voteCount": 77
+    },
+    {
+      "title": "The Fall Guy",
+      "overview": "Fresh off an almost career-ending accident, stuntman Colt Seavers has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/tSz1qsmSJon0rqjHBxXZmrotuse.jpg",
+      "tmdbId": 746036,
+      "releaseDate": "2024-04-24",
+      "voteAverage": 7.24,
+      "voteCount": 1562
+    },
+    {
+      "title": "The Watchers",
+      "overview": "A young artist gets stranded in an extensive, immaculate forest in western Ireland, where, after finding shelter, she becomes trapped alongside three strangers, stalked by mysterious creatures each night.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/vZVEUPychdvZLrTNwWErr9xZFmu.jpg",
+      "tmdbId": 1086747,
+      "releaseDate": "2024-06-06",
+      "voteAverage": 6.58,
+      "voteCount": 493
+    },
+    {
+      "title": "Tarot",
+      "overview": "When a group of friends recklessly violate the sacred rule of Tarot readings, they unknowingly unleash an unspeakable evil trapped within the cursed cards. One by one, they come face to face with fate and end up in a race against death.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/gAEUXC37vl1SnM7PXsHTF23I2vq.jpg",
+      "tmdbId": 719221,
+      "releaseDate": "2024-05-01",
+      "voteAverage": 6.7,
+      "voteCount": 684
+    },
+    {
+      "title": "Kleks Academy",
+      "overview": "A seemingly ordinary girl finds her way into the eponymous Academy to explore the world of fairy tales, imagination and creativity. With the help of a crazy, talented teacher, she develops her unique abilities and also stumbles upon a clue that will help her unravel the biggest secret of the family...",
+      "posterPath": "https://image.tmdb.org/t/p/w500/ymbECZscR8BTkdvXziSinMIckAz.jpg",
+      "tmdbId": 1026999,
+      "releaseDate": "2024-01-05",
+      "voteAverage": 6.435,
+      "voteCount": 77
+    },
+    {
+      "title": "IF",
+      "overview": "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends have grown up.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/xbKFv4KF3sVYuWKllLlwWDmuZP7.jpg",
+      "tmdbId": 639720,
+      "releaseDate": "2024-05-08",
+      "voteAverage": 7.381,
+      "voteCount": 642
+    },
+    {
+      "title": "Out of Exile",
+      "overview": "Recently paroled thief Gabriel Russell tries to balance his life and mend a troubled family as an FBI agent hunts him down, along with his crew after a botched armored car robbery.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/jgF5XaXnJmOgMxulhy2k1f9LNNc.jpg",
+      "tmdbId": 729165,
+      "releaseDate": "2023-01-20",
+      "voteAverage": 6.281,
+      "voteCount": 16
+    },
+    {
+      "title": "Tyler Perry's Divorce in the Black",
+      "overview": "Ava, a young bank professional is devastated when her husband Dallas abandons a marriage she is determined to fight for until fate intervenes, revealing Dallas' wicked deeds that have trashed their marriage, and once upon a time sabotaged Ava's destiny to be loved by her true soulmate.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/d5X03SA51Ezd02iF9BCjWXC9X9F.jpg",
+      "tmdbId": 1213742,
+      "releaseDate": "2024-07-11",
+      "voteAverage": 6.65,
+      "voteCount": 20
+    },
+    {
+      "title": "Godzilla Minus One",
+      "overview": "In postwar Japan, Godzilla brings new devastation to an already scorched landscape. With no military intervention or government help in sight, the survivors must join together in the face of despair and fight back against an unrelenting horror.",
+      "posterPath": "https://image.tmdb.org/t/p/w500/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg",
+      "tmdbId": 940721,
+      "releaseDate": "2023-11-03",
+      "voteAverage": 7.6,
+      "voteCount": 1890
+    }
+  ]
+}

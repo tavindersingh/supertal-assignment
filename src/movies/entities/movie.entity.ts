@@ -8,9 +8,21 @@ export class Movie extends BaseEntity {
   @Column()
   title: string;
 
-  @Column()
+  @Column({ type: 'text' })
   overview: string;
 
-  @Column()
+  @Column({ name: 'poster_path' })
   posterPath: string;
+
+  @Column({ name: 'tmdb_id' })
+  tmdbId: number;
+
+  @Column({ name: 'release_date' })
+  releaseDate: string;
+
+  @Column({ name: 'vote_average' })
+  voteAverage: number;
+
+  @Column({ name: 'vote_count' })
+  voteCount: number;
 }
